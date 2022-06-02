@@ -1,0 +1,92 @@
+.footer {
+     max-width: 1440px;
+     width: 100%;
+
+     margin: 0 auto;
+     padding: 66px 71px;
+
+     background-color: #081828;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.footer__left {
+     max-width: 384px;
+}
+
+.logo {}
+
+.footer__logo {
+     margin-bottom: 16px;
+}
+
+.footer__slogan {
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 28px;
+     letter-spacing: 0.05em;
+
+     color: #FFFFFF;
+     opacity: 0.6;
+
+     margin-bottom: 24px;
+}
+
+.social {
+     margin-bottom: 58px;
+     gap: 16px;
+}
+
+.social__icon {}
+
+.developed-by {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+
+     letter-spacing: 0.05em;
+     color: #FFFFFF;
+
+     opacity: 0.6;
+}
+
+.footer__right {
+     display: flex;
+     gap: 40px;
+}
+
+.footer__column {}
+
+.footer__column-title {
+     font-weight: 800;
+     font-size: 22px;
+     line-height: 24px;
+
+     letter-spacing: 0.04em;
+     font-feature-settings: 'liga' off;
+
+     color: #FFFFFF;
+
+     margin-bottom: 24px;
+}
+
+.footer__column-item {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 26px;
+     letter-spacing: 0.04em;
+     font-feature-settings: 'liga' off;
+
+     color: #FFFFFF;
+     opacity: 0.6;
+
+     margin-bottom: 16px;
+}
+
+.column-company {}
+
+.column-services {}
+
+.column-legal {}
